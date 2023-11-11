@@ -1,0 +1,82 @@
+:root{
+    --color-brand-light: #2B7FFF;
+    --color-brand-dark: #011C44;
+}
+
+body{
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    /*Убрали кружочки перед пунктами в списках*/
+}
+
+.main-link{
+    color: var(--color-brand-dark);
+    text-decoration: none;
+}
+
+.main-link:hover{
+    color: var(--color-brand-light);
+}
+
+.hero-title{
+    font-family: 'Play', sans-serif;
+    color: var(--color-brand-light);
+    font-size: 140px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.22;
+}
+
+.text2{
+    color: var(--color-brand-dark);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.section-title{
+    font-family: 'Play', sans-serif;
+    color: var(--color-brand-dark);
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.section-title .accent{
+    color: var(--color-brand-light);
+}
+
+.text3-smallest{
+    color: #4A4A4A;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.address-link{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: var(--color-brand-light);
+    border: 2px solid var(--color-brand-light);
+    border-radius: 32px;
+    cursor: pointer;
+
+}
+
+.button:hover {
+    color: var(--color-brand-light);
+    background-color: transparent;
+    /*Сделали кнопку прозрачной*/
+}
+
+.address-copyright{
+    color: #747272;
+}
